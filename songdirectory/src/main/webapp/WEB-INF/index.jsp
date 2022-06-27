@@ -20,12 +20,12 @@
 <body>
 	<h1>Welcome, <c:out value="${user.userName}"/>!</h1>
 	<a href="/logout" class="logout">logout</a>
-	<h3>All Song Labs</h3>
+	<h3>Song List</h3>
 	<table class="table table-striped">
 	    <thead>
 	        <tr>
 	            <th scope="col">Song</th>
-	            <th scope="col"># of Collaborations</th>
+	            <th scope="col"># of Times Edited</th>
 	        </tr>
 	    </thead>
 	    <tbody>
