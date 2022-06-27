@@ -1,0 +1,5 @@
+package com.dimitrova.songdirectory.models;
+
+public class User {
+
+}

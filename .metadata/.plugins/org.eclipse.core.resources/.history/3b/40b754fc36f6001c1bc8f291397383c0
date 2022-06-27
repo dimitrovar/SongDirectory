@@ -1,0 +1,5 @@
+package com.dimitrova.songdirectory.repositories;
+
+public interface UserRepository {
+
+}
