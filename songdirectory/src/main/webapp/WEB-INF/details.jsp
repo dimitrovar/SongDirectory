@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="parent">
+<body class="container">
     <h1 class="title"><c:out value="${song.name}"/></h1>
-	<h2>Started by <c:out value="${song.user.userName}"/></h2>
+	<h2 class="username">Started by <c:out value="${song.user.userName}"/></h2>
 	
-	<h4 class = "artist">Artist: <c:out value="${song.artist}"/></h4>
+	<h4>Artist: <c:out value="${song.artist}"/></h4>
 	
 	<h4>Genre: <c:out value="${song.genre}"/></h4>
 	

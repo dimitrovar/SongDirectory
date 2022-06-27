@@ -18,41 +18,40 @@
 <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-<body>
-<h2>Add a song:</h2>
-	<form:form action="/songs/new" method="post" modelAttribute="song">
-	
-		<p>
-			<form:label path="name" class="textbox">Song Name: </form:label>
-			<form:errors path="name" class="error"/>
-			<form:input path="name"/>
-		</p>
-		
-		<p>
-			<form:label path="artist" class="textbox">Artist Name: </form:label>
-			<form:errors path="artist" class="error"/>
-			<form:input path="artist"/>
-		</p>
-	
-		<p>
-			<form:label path="genre" class="textbox">Genre: </form:label>
-			<form:errors path="genre" class="error"/>
-			<form:input path="genre"/>
-		</p>
+<body class="inputstyle">
+		<h2>Add a song:</h2>
+			<form:form action="/songs/new" method="post" modelAttribute="song">
+			
+				<p>
+					<form:label path="name" class="textbox">Song Name: </form:label>
+					<form:errors path="name" class="error"/>
+					<form:input path="name"/>
+				</p>
 				
-		<p>
-			<form:label path="lyrics" class="lyricsbox">Lyrics: </form:label>
-			<form:errors path="lyrics" class="error"/>
-			<form:textarea rows="3" path="lyrics"/>
-		</p>
-		
-		<p>
-			<input type="submit" value="Submit" class="btn btn-primary"/>
-			<a href="/songs" class="btn btn-primary">Cancel</a>
-		</p>
+				<p>
+					<form:label path="artist" class="textbox">Artist Name: </form:label>
+					<form:errors path="artist" class="error"/>
+					<form:input path="artist"/>
+				</p>
+			
+				<p>
+					<form:label path="genre" class="textbox">Genre: </form:label>
+					<form:errors path="genre" class="error"/>
+					<form:input path="genre"/>
+				</p>
+						
+				<p>
+					<form:label path="lyrics" class="lyricsbox">Lyrics: </form:label>
+					<form:errors path="lyrics" class="error"/>
+					<form:textarea rows="3" path="lyrics"/>
+				</p>
 				
-	</form:form>
+				<p>
+					<input type="submit" value="Submit" class="btn btn-primary"/>
+					<a href="/songs" class="btn btn-primary">Cancel</a>
+				</p>
+						
+			</form:form>
 	
 </body>
 </html>

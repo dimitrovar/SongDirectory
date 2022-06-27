@@ -18,11 +18,10 @@
 <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="inputstyle">
 <h1 class="edit">Edit Song</h1>
 
 <a href="/songs/" class="back">Go back</a>
-
 	<form:form action="/songs/${song.id}/edit" method="post" modelAttribute="song">
 		<input type="hidden" name="_method" value="put">
 		

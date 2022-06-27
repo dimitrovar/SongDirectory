@@ -6,46 +6,63 @@
 }
 
 .container {
-	margin: 0px;
+	width: 1200px;
+	margin: 0px auto;
 	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 h1 {
 	padding: 5px;
 	text-align: center;
-	color: lightblue;
+	color: #26b4ea;
 }
 
 h2 {
 	margin-left: 20px;
-	color: lightblue;
+	margin-top: 10px;
+	color: #26b4ea;
 }
 
 h3 {
 	text-align: center;
 	padding: 5px;
-	color: lightblue;
+	color: #26b4ea;
 }
 
 h4 {
-	margin-left: 20px;
+	margin-left: 0px;
 	padding: 5px;
 	color: grey;
 }
 
 h5 {
-	margin-left: 20px;
 	padding: 5px;
 	color: grey;
+}
+
+.login {
+	margin-top: 40px;
+}
+
+.inputstyle {
+	margin-left: 40%;
+	margin-top: 20px;
+}
+
+.song {
+	margin-left: 15px;
 }
 
 .artist {
 	margin-top: 20px;
 }
 
-.title {
-	text-align: left;
-	margin-left: 15px;
+.username {
+	margin-left: 4px;
 }
 
 
@@ -93,7 +110,7 @@ p {
 .dbutton {
 	display: flex;
 	justify-content: center;
-	margin-left: 30px;
+	margin-left: 20px;
 	margin-top: 10px;
 	width: 100px;
 	background-color: red;
@@ -104,7 +121,7 @@ p {
 .btn-primary {
 	display: flex;
 	justify-content: center;
-	margin-left: 30px;
+	margin-left: 20px;
 	width: 100px;
 	margin-top: 10px;
 }

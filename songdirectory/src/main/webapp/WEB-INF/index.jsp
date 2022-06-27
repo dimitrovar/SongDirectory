@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="container">
 	<h1>Welcome, <c:out value="${user.userName}"/>!</h1>
 	<a href="/logout" class="logout">logout</a>
 	<h3>Song List</h3>
